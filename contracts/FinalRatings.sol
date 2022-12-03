@@ -7,7 +7,6 @@ import "./ReviewRecords.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract FinalRatings is Ownable {
-    address owner; // RatingsCalculator contract
     struct record {
         uint rating;
         uint prevRating;
